@@ -1,0 +1,17 @@
+
+Download latest flutter
+Download xcode
+download android studio
+  download tools
+  
+set path for flutter:
+  pwd
+  nano ~/.zshrc
+  export PATH="$PATH:/Users/josh/Documents/sid/flutter/bin"
+  source ~/.zshrc
+
+flutter doctor
+  solve issues
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  download android studio tools
+  
