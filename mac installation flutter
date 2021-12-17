@@ -15,4 +15,18 @@ flutter doctor
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   download android studio tools
   
+git clone with ssh:
+  ssh-keygen -t ed25519 -C "khore.sid2@gmail.com"
+  cat newssh.pub
+  ssh -T git@github.com
+  eval "$(ssh-agent -s)"
+  ssh-add newssh
+  git clone git@github.com:neilsk/Word-Pirate-Mobile-App.git
+  
 brew install java
+brew install openjdk
+echo 'export PATH="/usr/local/opt/openjdk/bin:$PATH"' >> .zshrc
+source .zshrc
+
+sha1 sha256 keys:
+keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
