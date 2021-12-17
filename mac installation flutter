@@ -15,3 +15,4 @@ flutter doctor
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   download android studio tools
   
+brew install java
